@@ -120,7 +120,7 @@ const Product: React.FC = () => {
                     style={{
                         width: "60%",
                         scrollbarWidth: "none",
-                        "-ms-overflow-style": "none",
+                        msOverflowStyle: "none",
                     }}
                 >
                     <div className="text-lg">
